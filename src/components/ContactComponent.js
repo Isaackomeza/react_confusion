@@ -61,13 +61,13 @@ class Contact extends Component {
 
         if (this.state.touched.firstname && firstname.length < 3)
             errors.firstname = 'First Name should be >= 3 characters';
-        else if (this.state.touched.firstname && firstname.length > 10)
-            errors.firstname = 'First Name should be <= 10 characters';
+        else if (this.state.touched.firstname && firstname.length > 15)
+            errors.firstname = 'First Name should be <= 15 characters';
 
         if (this.state.touched.lastname && lastname.length < 3)
             errors.lastname = 'Last Name should be >= 3 characters';
-        else if (this.state.touched.lastname && lastname.length > 10)
-            errors.lastname = 'Last Name should be <= 10 characters';
+        else if (this.state.touched.lastname && lastname.length > 15)
+            errors.lastname = 'Last Name should be <= 15 characters';
 
         const reg = /^\d+$/;
         if (this.state.touched.telnum && !reg.test(telnum))
