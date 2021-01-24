@@ -66,3 +66,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Use the following URL to fetch the app data from production and localhost respectively
+
+// export const baseUrl = 'https://my-json-server.typicode.com/Isaackomeza/json-server/';
+// export const baseUrl = 'http://localhost:3001/';
